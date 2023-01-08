@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1>Survey Form</h1>
+  <p>
+    Please take a few moments to complete the following survey. Your feedback is important to us.Thankyou!
+  </p>
+  <form action="survey-submission" method="post">
+
+    <label for="name">Name:</label><br>
+    
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br>
+
+    <label for="batch">batch:</label><br>
+    <input type="number" id="batch" name="batch"><br>
+
+
+<br>
+    <label for="satisfaction">How will you rate our college environment?
+
+    </label><br>
+<input type="radio" id="college-very " name="college" value="very:The teacher are good">
+    <label for="college-very">The teacher are good at all</label><br>
+    <input type="radio" id="college-somewhat" name="college" value="somewhat">
+    <label for="satisfaction-somewhat">Somewhat</label><br>
+    <input type="radio" id="satisfaction-not" name="satisfaction" value="not">
+    <label for="satisfaction-not">Not at all</label><br><br>
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments"></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+</body>
+</html>
